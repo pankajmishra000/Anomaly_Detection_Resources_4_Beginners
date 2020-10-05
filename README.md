@@ -84,7 +84,23 @@ Apart from the the above mentioned issues, it's also costly to arrange data s ma
 
 With some recent advances in the deep anomaly work and the challenges mentioned above...below you can see how a real life anomalies of industrial products look like-
 
+## 1. Example
+
 <img src="Images/018.png" width="300" height="300"> <img src="Images/005.png" width="300" height="300">
+
+The above images shows a broken beer bottle and a broken pills from an industrial production. Now both of these products are high speed manufacturing products. And we can see that the broken pieces can be small and large. Hence, the challenge will be that our deep model should identify the anomaly at a real life high speed.
+
+## 2. Example
+
+<img src="Images/000.png" width="300" height="300"> <img src="Images/021_lI.PNG" width="300" height="300">
+
+The above figure shows that how complicated an anomaly can be. You can see that anomalies are localised in a very small area like a raptured capsule or a misprint. The detection of misprint is a very challenging task, where our industrial product is of very high speed production like capsules.
+
+## 3. Example
+
+<img src="Images/006.png" width="300" height="300"> <img src="Images/012_LI.png" width="300" height="300">
+
+This final example in the above images shows texture anomalies. Anomalies found in the carpet production or tile production are surface anoamies or texture anomalies. These are very challenging task to identify as many deep learning methods based on reconstruction error fails to capture these minute details.
 
 # Notes  (How to use this repository)
 

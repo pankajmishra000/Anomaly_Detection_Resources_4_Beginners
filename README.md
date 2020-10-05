@@ -80,6 +80,12 @@ Since, anomaly detection task has huge industrial application, many industries w
 
 Apart from the the above mentioned issues, it's also costly to arrange data s maybe entire production dates may get affected. And even if we get the data....**DATA ANNOTATION**: Art of labelling the dataset, is costly(both in terms of time and money).
 
+# Real Life Industial Product Anomalies
+
+With some recent advances in the deep anomaly work and the challenges mentioned above...below you can see how a real life anomalies of industrial products look like-
+
+![Broken beer bottle](Images/018.png) | ![Broken Pills](Images/005.png)
+
 
 # Notes  (How to use this repository)
 

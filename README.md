@@ -53,6 +53,26 @@ ignoring the deviant                    |
 observations.                           |
 
 
+## In terms of Learning
+
+In terms of learning Novelty Detection is a **Semi-Supervised Learning**(discussed below), while Outlier detection is **Unsupervised Learning.**(discussed below)
+
+![In terms of learning](Images/terms_of_learning)
+
+# Anomaly Detection and Deep Learning/Artificial Intelligence/Computer Vision
+
+Despite huge interest of research community and industrialinterest, the topic has been not fully exploited with the modern state-of-the-art deep learning approaches. The classicial computer vision approaches were still in use for the Image anomaly detection for identifying the faulty product on a production line. Hence, Our lab [AVIRES](https://avires.dimi.uniud.it/) is working and developing techniques to tackle these problems.
+
+In the academic literature, the deep learning methods used for solving the anomaly detection task is known as the `"Deep Anomaly Detection`. Deep Anomaly Detection methods can be classified as three types:
+
+* Fully-Supervised/Supervised Methods: It is assumed that both normal and anomalous data are available for training, and the problem reduces to a standard classification task. In this case, the main difference between anomaly detection and other classification problems is the *imbalanced nature of the dataset*: anomalies may be available for training, but their amount is by definition much smaller than normal data.
+
+* Semi-Supervised Methods: In this case, the assumption is that a labeled training set exists, but it contains only normal data. This is a frequent scenario in real-world applications, where large amounts of normal data can be acquired easily but anomalous ones are extremely rare. The task of the anomaly detection system is thus to learn a “normality” model from the training data, and subsequently classify as anomaly any sample that does not fit the model.
+
+* Unsupervised Methods: The unsupervised approach considers the case of unlabeled training sets containing both normal data and anomalies. It consists in estimating the region
+where normal data is mostly concentrated, consequently separating the deviant observations. Since, neural networks are not particularly well-suited for clustering tasks, the most common approach in this case is to use the neural network as a feature extractor, and the features are later analyzed with other machine learning tools such as one-class Support Vector Machines.
+
+
 
 
 

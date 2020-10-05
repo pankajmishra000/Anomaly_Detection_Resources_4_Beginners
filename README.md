@@ -24,28 +24,33 @@ Hence, earlier deep (and ML) anomaly detection methods can eb classified as -
 * Novelty Detection
 * Outlier Detection
 
-[classification of classical anomaly detection methods](Images/deep_anom_detect.PNG)
+![classification of classical anomaly detection methods](Images/deep_anom_detect.PNG)
 
 ## Novelty Detection
 
-[Novelty Detection](Images/novelity_detect.PNG)
+![Novelty Detection](Images/novelity_detect.PNG)
 
 **Novelty detection** is the mechanism by which an intelligent organism/system is able to identify an incoming sensory pattern as being until now unknown. This has huge application in bio-medical fields, manufacturing fields, banks and online transactions, trading etc.
 
 ## Outlier Detection
 
-[Outlier Detection](Images/outlier_detect.PNG)
+![Outlier Detection](Images/outlier_detect.PNG)
 
 **An outlier** is an observation that diverges from an overall pattern on a sample.
 
 ## Difference between Outlier Detection and Novelty Detection
 
-Outlier Detection   |  Novelty Detection
--------------       | -------------
-The training data contains outliers which are defined as observations that are far from the others. Outlier detection estimators thus try to fit the regions where the training data is the most concentrated, ignoring the deviant observations.
-        | The training data is not polluted by outliers and we are interested in detecting whether a new observation is an outlier. In this context an outlier is also called a novelty.
-
-Content Cell        | Content Cell
+Outlier Detection                       |  Novelty Detection
+-------------                           | -------------
+The training data contains outliers     |The training data is not polluted
+which are defined as observations       |by outliers and we are interested 
+that are far from the others.           |in detecting whether a new observation
+Outlier detection estimators            |is an outlier. In this context an outlier is
+thus try to fit the regions             |also called a novelty
+where the training data is              |
+the most concentrated,                  |
+ignoring the deviant                    |
+observations.                           |
 
 
 

@@ -92,13 +92,13 @@ The above images shows a broken beer bottle and a broken pills from an industria
 
 ## 2. Example
 
-<img src="Images/000.png" width="300" height="300"> <img src="Images/021_lI.PNG" width="300" height="300">
+<img src="Images/000.png" width="300" height="300"> <img src="Images/016.png" width="300" height="300">
 
 The above figure shows that how complicated an anomaly can be. You can see that anomalies are localised in a very small area like a raptured capsule or a misprint. The detection of misprint is a very challenging task, where our industrial product is of very high speed production like capsules.
 
 ## 3. Example
 
-<img src="Images/006.png" width="300" height="300"> <img src="Images/012_LI.png" width="300" height="300">
+<img src="Images/006.png" width="300" height="300"> <img src="Images/010.png" width="300" height="300">
 
 This final example in the above images shows texture anomalies. Anomalies found in the carpet production or tile production are surface anoamies or texture anomalies. These are very challenging task to identify as many deep learning methods based on reconstruction error fails to capture these minute details.
 

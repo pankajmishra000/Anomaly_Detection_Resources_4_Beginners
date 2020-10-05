@@ -84,7 +84,8 @@ Apart from the the above mentioned issues, it's also costly to arrange data s ma
 
 With some recent advances in the deep anomaly work and the challenges mentioned above...below you can see how a real life anomalies of industrial products look like-
 
-<img src="Images/018.png" width="600" height="300">
+<img src="Images/018.png" width="300" height="300">
+<img src="Images/005.png" width="300" height="300">
 
 # Notes  (How to use this repository)
 

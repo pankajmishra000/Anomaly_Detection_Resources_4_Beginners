@@ -84,7 +84,7 @@ Apart from the the above mentioned issues, it's also costly to arrange data s ma
 
 With some recent advances in the deep anomaly work and the challenges mentioned above...below you can see how a real life anomalies of industrial products look like-
 
-![Broken beer bottle](Images/018.png = 100x)  ![Broken Pills](Images/005.png = 100x)
+![Broken beer bottle](Images/018.png =100x)  ![Broken Pills](Images/005.png =100x)
 
 
 # Notes  (How to use this repository)

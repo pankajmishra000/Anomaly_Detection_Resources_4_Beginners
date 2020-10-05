@@ -24,7 +24,7 @@ Hence, earlier deep (and ML) anomaly detection methods can eb classified as -
 * Novelty Detection
 * Outlier Detection
 
-![classification of classical anomaly detection methods](Images/deep_anom_detect.PNG)
+![classification of classical anomaly detection methods](Images/deeep_anom_detect.PNG)
 
 ## Novelty Detection
 
@@ -76,7 +76,31 @@ where normal data is mostly concentrated, consequently separating the deviant ob
 
 ![Industrial Challenges](Images/industrial_challenges.PNG)
 
-Since, anomaly detection task has huge industrial application, many industries wants to develop there own specialized methods which suits their requirements of anomaly classification is a complex working domain.
+Since, anomaly detection task has huge industrial application, many industries wants to develop there own specialized methods which suits their requirements of anomaly classification is a complex working domain. The major and prime industrial challenge is "lack of data". Many indsutrial facilities still doesn't have proper infrastrucutre or proper data collection facilities. Even if they have they have huge data imbalance, as they have huge data for the normal product while very few images of the abnormalities. Quality of data is also important and many times industries find it very difficult to arrange that, as they may have hughe piles of messy data.
+
+Apart from the the above mentioned issues, it's also costly to arrange data s maybe entire production dates may get affected. And even if we get the data....**DATA ANNOTATION**: Art of labelling the dataset, is costly(both in terms of time and money).
+
+
+# Notes  (How to use this repository)
+
+This repo is made for the beginners in the field of anomaly detection and the resources shared here are very basic. Here is a quick note on how to use this repository
+
+This repo focuses on two things :
+
+* Coding (primarily using Pytorch)
+* Some Reading Materials
+
+## Coding
+Inside the `Anomaly detection Resources` folder, you can find three folder and two presentations. These are (They all contains links to the repos or codes in the readme section and some actual codes):
+
+* **Advance_Pytorch**: This is a curated list of a huge pytorch work ranging from all field of ML, AI, Computer Vision, DL etc
+* **Python Codes Anomaly Detection**: This contains repo links for the basic autoencoders and unsupervised defect segmentation.
+* **Pytorch_beginner_resources**: It contains crash course links for the Pytorch, SKLearn anomaly detection module, classical anomaly detection resources.
+
+## Some Reading Materials
+Inside the `Anomaly detection Resources` folder you can find two presentations of our lab work (one in english and one in Italian). These are some refereshers and intial research work done in this field by our lab Avires.
+
+# Please feel free for any addition to these resources. Please pull a branch and make a commit request. You can also write to `pankajmishra000@gmail.com`.
 
 
 
